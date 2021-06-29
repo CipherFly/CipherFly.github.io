@@ -1,0 +1,20 @@
+body{
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../images/background.png");
+	background-size: cover;
+}
+
+
+.title{text-align: center; grid-area: title; background-color: rgba(51, 204, 51, 0.7)}
+#bookLink{grid-area: bLink; text-align: center;}
+#dataLink{grid-area: lLink; text-align: center;}
+
+.mGridContainer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"title title"
+		"bLink bLink"
+		"lLink lLink";
+	 gap: 1%;
+}

@@ -1,0 +1,50 @@
+body{
+	background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../images/vaccine.png");
+	background-size: cover;
+}
+
+.title{text-align: center; grid-area: title; background-color: rgba(51, 204, 51, 0.7)}
+.title2{text-align: center; grid-area: title2; background-color: rgb(255, 153, 51, .7)}
+#bookLink{grid-area: bLink; text-align: center;}
+#listLink{grid-area: lLink; text-align: center;}
+.links{text-align: center; grid-area: links;}
+.formContainer{text-align: center; grid-area: bForm;}
+.listContainer{grid-area: list;}
+
+input { width: 100%}
+
+
+.mGridContainer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"title title"
+		"bLink bLink"
+		"lLink lLink";
+	 gap: 1%;
+		
+}
+
+.bGridContainer{
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"title title title"		
+		"title2 title2 title2"	
+		". bForm .";
+	 gap: 1%;
+		
+}
+
+.lGridContainer{
+	display: grid;
+	grid-template-columns: 10% auto 10%;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"title title title"		
+		"title2 title2 title2"		
+		". list .";
+	 gap: 1%;
+}

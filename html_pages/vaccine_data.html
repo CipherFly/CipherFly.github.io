@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+	<link rel="stylesheet" href="../css/vdata.css" />	
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../js/jquery.js"></script>
+	</head>
+	<body>
+		<section class="mGridContainer">
+			<h1 class="title">COVID-19 Ontario Vaccine Data</h1>
+			<section id="buttons">
+				<button type="button" id="load">Load data</button>
+				<button type="button" id="display">Display data</button>
+			</section>
+			<section id="displayData">
+				<h1 id="displayTitle"></h1>
+				<ul id="dateList"></ul>
+			</section>
+			<section id="contentData">
+				<h2 id="contentTitle"></h2>
+				<div id="date"></div>
+				<div id="previous"></div>
+				<div id="administered"></div>
+				<div id="full_doses"></div>
+				<div id="total_full_doses"></div><br>
+			</section>
+		</section>
+	</body>
+	<script src="../js/loadDisplayScript.js"></script>
+</html>

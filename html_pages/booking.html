@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>	
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/vbook.css" />
+		<script src="../js/jquery.js"></script>
+		<style>
+		</style>
+	</head>
+	<body>
+		<section class="bGridContainer">
+			<h1 class="title">COVID-19 Vaccine Booking System/ 
+			<a id = "mainLink" href="vaccine_booking.html"/>Back</a></h1>
+			<div class="formContainer">
+			<h2 class="title2">Vaccine Booking</h2>
+			<form id="bookingForm">
+				<fieldset>
+				<legend>Booking information:</legend><br>
+				<label for="date">Date:</label>
+				<input type="date" name="Date" id="date" required><br>
+				<label for="time">Time:</label>
+				<input type="time" name="Time" id="time" required><br>
+				<label for="ohip">OHIP #:</label>
+				<input type="number" name="OHIP" id="ohip" required><br>
+				<label for="email">Email address:</label>
+				<input type="text" name="Email address" id="email" required><br>
+				<label for="phone">Phone #:</label>
+				<input type="number" name="Phone Number" id="phone" required><br><br>
+				<input type="submit" value="Submit">
+				</fieldset>
+			</form>
+			</div>
+		</section>
+	</body>
+	<script src="../js/bookingJS.js"></script>
+</html>
