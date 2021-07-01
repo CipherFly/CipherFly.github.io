@@ -4,6 +4,7 @@ body{
 }
 
 .title{text-align: center; grid-area: title; background-color: rgba(51, 204, 51, 0.7)}
+.chartLink{text-align: center; grid-area: chart; background-color: rgba(51, 204, 51, 0.7)}
 #load{width:100%;}
 #display{width:100%;}
 #buttons{grid-area: buttons;}
@@ -17,6 +18,7 @@ body{
 	grid-template-rows: auto;
 	grid-template-areas:
 		"title title"
+		"chart chart"
 		"buttons buttons"
 		"displayData contentData";
 	 gap: 1%;
@@ -35,6 +37,7 @@ body{
 	grid-template-rows: auto;
 	grid-template-areas:
 		"title title"
+		"chart chart"
 		"buttons buttons"
 		"displayData displayData"
 		"contentData contentData";
