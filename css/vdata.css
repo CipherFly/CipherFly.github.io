@@ -10,6 +10,7 @@ body{
 #buttons{grid-area: buttons;}
 #displayData{grid-area: displayData;}
 #contentData{grid-area: contentData;}
+footer{text-align:center;}
 
 @media (orientation: landscape) {
 .mGridContainer{
